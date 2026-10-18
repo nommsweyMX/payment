@@ -147,6 +147,28 @@ h1 {
   text-transform:uppercase;
 }
 
+
+.zelle-qr-wrap {
+  margin:14px 0 2px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:8px;
+}
+.zelle-qr {
+  width:min(260px,78vw);
+  height:auto;
+  display:block;
+  border:10px solid #fff;
+  border-radius:16px;
+  box-shadow:0 4px 14px rgba(16,39,68,.12);
+}
+.zelle-qr-caption {
+  font-size:13px;
+  color:var(--muted);
+  font-weight:800;
+  text-align:center;
+}
 </style>
 </head>
 <body>
@@ -248,6 +270,10 @@ h1 {
           <button class="copy" type="button" data-copy="scalio@gmail.com">Copy</button>
         </div>
         <div class="preference" style="background:#eaf7ee;border-color:#add2b7;color:#235b32;">Preferred method for transfers from U.S. bank accounts.</div>
+        <div class="zelle-qr-wrap">
+          <img class="zelle-qr" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAXEAAAFxAQAAAACt/KUJAAAElUlEQVR42u2bMa7jRhBEX3NkjzIKcLCJgdENfATqn8TOfYFNDFJH2YvY1A12b0CFBhxQgYERQLEczEj/7/qvV1qbgIPpQJCIipqtmurqHhOPxL7isSj4gi/4/xVeZmZmK85ma05mG45bOOw47PZmZl0CVCWf/z0eaTZJmlzER6+ReiQMBPUJ0EpIGdaVfN6HH2H1/HQcoL/++PXFJybkLhXu7CfgXEfguAXCwKF9ksm0l2EXN5fz7hH8xdbnOp7MbFsPwGEH0Jq61/HT89dNyee/4ZMZ3OSk6KMf67HWEIbQN1IPbUeLwAqfLM3nPvpISr+GoL5R30gqfL4gfgXIABwA/hiOmw8cm8P2HYf2qTOZMCB9lHzejV8BcQ2wGWEAYAd0n+BNugqa85uxPm6oPzSJ/Gk69pAAc8n/l8OEKsCdV/jI+c0xjKcfhmPz7sd3O2izPFF1cfNr/XjMYogt8EIEqdTzQ3w+uYnM59RDGMJAo75RB7QAifULny/A56hy54uPtT/VY6AeGY7HbegPO6ztZELAXPK5TP1rtslJE145hqCrnmylDqHM6aX+78JX80ftzi36z/HP5CYXvSJ+rDXWQxig6Wmub0Skc7fk/w4+xzQ5KYIf/ViPAISepm/6Vtf29FV9vv7sC7PCJ/efp5PThIteGuuxlqQhv4DcHmU6KfW8BJ9LE06Ti17SSO5Pexqpaz8q/5L/ZfKvyU3gI165/EMyCNS1XavnKPl/AD/dzf8TThNJ0IxASPTzov41l/P0gf5oAhedpAjJbpSU/EaJllf5fHXtTz+NrtTzg3zucn8qjVBLA3Ct57bw+aJ4ma0uq4uP5/q0PgUlPUnQ3natdSAhKpX56bL175Kiz89DD80LPi9++yP96Sun6fazeFU2cVkDPp7DSD0EDYS+2dtv3V5di2SVFb/3Tj6pZi7f6C24t/if+Pb9d09bjraD73dA04Hxc/WxP6DJSYpJUA5hgNROda2ECv/fGWlp4OLPlgdIpzCewnhoBIcduyeZtcnvquZSz8vw+WyT0wQkg4Ck0BvpeXWg8Ply+Z9tAtL82o9AncR73/S0XStAecxX8v8gPs1Pv9CfQlrgiHiN1HpuqKQO2ps9VvJ/V78PtkkGbYiZTDY0qZyrrM/T1LrLS2PVH6vqz7WPnOrjhhHq9w1A//SLqdTzo/k3TU7R3/T51e26zo/EXOYXy/kzsyW/UYrX/F8HHlkf5qWlkv+F/LEUES9prAeyPqeRskFQ/MYF8z/lcUfkpmcGAJqbQVDq/0F/YPWsZ07bY3YHDt3f8ZYM9wj4qzkGoW8kdW2XLOK51PMjeibp89TvUw/5vkCTFpJaROHzZfAm5Gbgcr0vcAojcGwGbvcFuhus3BdYRM9A2ofRdb+dpGfUkfl8Lv3p1/enz7H7x/xnPZMFZXN9Abqtt5f8P4I/r1nDaUO+gQSHbsfezDB4ZX6UjtP8Bwg90DddyedX6fPJRbyiT/sYGghK1zU64HaglnpeAK90/RQfz/XvYeS0OVozcLDdYbe3tN04u7Lfu5CeeSSKnin4gi/4gs/xFzCs05SvYeeWAAAAAElFTkSuQmCC" alt="Zelle QR code for Brad Scalio, linked to scalio@gmail.com">
+          <div class="zelle-qr-caption">Scan with your banking app to send via Zelle</div>
+        </div>
       </div>
     </section>
 
